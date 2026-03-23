@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanuj - Student Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+        header p {
+            color: #555;
+            font-size: 1.1em;
+        }
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        section h2 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .education-item, .project-item {
+            margin-bottom: 15px;
+        }
+        .education-item h3, .project-item h3 {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .date {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9em;
+        }
+        .skills-list {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills-list li {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        
+        @media print {
+            body { background: white; }
+            .resume-container { box-shadow: none; padding: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1>Tanuj</h1>
+            <p>B.Sc. Computer Science Student</p>
+            <div class="contact-info">
+                <span>UID: 25bsc10024</span> | 
+                <a href="mailto:[25bsc10024@cuchd.in]">[25bsc10024@cuchd.in]</a> | 
+                <span>[8059027372]</span> |
+                <a href="[https://www.linkedin.com/in/tanuj-jakhar-767b10379]">LinkedIn</a> | <a href="[https://github.com/Tanuj-24/student-resume-25bsc10024]">GitHub</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Profile</h2>
+            <p>Motivated and detail-oriented Computer Science student with a strong foundation in programming logic, data structures, and web development. Passionate about solving problems and continuously learning new technologies to build efficient software solutions.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science (B.Sc.) in Computer Science</h3>
+                <p>Chandigarh University, Gharuan, Mohali</p>
+                <p class="date">Completed First Semester: January 2026 | Expected Graduation: 2028</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>C Programming</li>
+                <li>Data Structures & Algorithms (DSA)</li>
+                <li>Computer Networks</li>
+                <li>Digital Electronics</li>
+                <li>HTML5 & CSS3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Academic Projects</h2>
+            <div class="project-item">
+                <h3>Electricity Billing System</h3>
+                <p class="date">November 2025</p>
+                <p>Developed a console-based application using C programming to calculate and generate electricity bills based on units consumed. Implemented conditional logic and structured data flow to ensure accurate billing computations.</p>
+            </div>
+            <div class="project-item">
+                <h3>Personal Resume Web Page</h3>
+                <p class="date">March 2026</p>
+                <p>Designed and developed a responsive personal portfolio and resume utilizing semantic HTML and custom CSS for a mini-project submission. Focused on clean layout and print-friendly design.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Hobbies & Interests</h2>
+            <p>Image Editing & Generation, Exploring Tech Trends</p>
+        </section>
+
+    </div>
+
+</body>
+</html>
